@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Medical Assistant</title>
+</head>
+
+<body>
+  <div class="p-3 mb-2 bg-dark text-white">
+    <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+      <a class="navbar-brand" href="/staff">Staff Portal</a>
+    </nav>
+  </div>
+
+  <div class="container">
+  <h1>Medical Assistant</h1>
+  <form method="POST">
+
+    <div class="mb-3">
+      <label for="ageid" class="form-label">Age</label>
+      <input class="form-control" type="number" id="ageid" name="age" aria-label="default input example">
+    </div>
+
+    Gender
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="gender" id="flexRadioDefault4" value="1" checked>
+      <label class="form-check-label" for="flexRadioDefault4">Male</label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="gender" id="flexRadioDefault5" value="0">
+      <label class="form-check-label" for="flexRadioDefault5">Female</label>
+    </div><br>
+
+    Chest Pain Type
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="cp" id="flexRadioDefault0" value="0" checked>
+      <label class="form-check-label" for="flexRadioDefault0">Typical angina</label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="cp" id="flexRadioDefault1" value="1">
+      <label class="form-check-label" for="flexRadioDefault1">Atypical angina</label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="cp" id="flexRadioDefault2" value="2">
+      <label class="form-check-label" for="flexRadioDefault2">Non-anginal pain</label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="cp" id="flexRadioDefault3" value="3">
+      <label class="form-check-label" for="flexRadioDefault3">Asymptomatic</label>
+    </div><br>
+
+    <div class="mb-3">
+      <label for="trtbpsid" class="form-label">Resting Blood Pressure</label>
+      <input class="form-control" type="text" id="trtbpsid" name="trtbps" aria-label="default input example">
+    </div>
+
+    <div class="mb-3">
+      <label for="cholid" class="form-label">Cholesterol</label>
+      <input class="form-control" type="text" id="cholid" name="chol" aria-label="default input example">
+    </div>
+
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1" name="FBS" value="1">
+      <label class="form-check-label" for="exampleCheck1">Fasting Blood Sugar</label>
+    </div><br>
+
+    Resting Electrocardiographic Results
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="rest_ecg" id="flexRadioDefault6" value="0" checked>
+      <label class="form-check-label" for="flexRadioDefault6">Normal</label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="rest_ecg" id="flexRadioDefault7" value="1">
+      <label class="form-check-label" for="flexRadioDefault7">Having ST-T wave abnormality</label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="rest_ecg" id="flexRadioDefault8" value="2">
+      <label class="form-check-label" for="flexRadioDefault8">Left ventricular hypertrophy by Estes criteria</label>
+    </div><br>
+
+    <div class="mb-3">
+      <label for="thalachid" class="form-label">Maximum Heart Rate</label>
+      <input class="form-control" type="text" id="thalachid" name="thalach" aria-label="default input example">
+    </div>
+
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck0" name="exang" value="1">
+      <label class="form-check-label" for="exampleCheck0">Exercise Induced angina</label>
+    </div><br>
+
+    <div class="mb-3">
+      <label for="oldpeakid" class="form-label">Previous Peak</label>
+      <input class="form-control" type="text" id="oldpeakid" name="oldpeak" aria-label="default input example">
+    </div><br>
+
+    <div class="mb-3">
+      <label for="slpid" class="form-label">Slope</label>
+      <input class="form-control" type="text" id="slpid" name="slp" aria-label="default input example">
+    </div>
+
+    <div class="mb-3">
+      <label for="caid" class="form-label">Number of Major Vessel</label>
+      <input class="form-control" type="text" id="caid" name="ca" aria-label="default input example">
+    </div>
+
+    <div class="mb-3">
+      <label for="thallid" class="form-label">Thal Rate</label>
+      <input class="form-control" type="text" id="thallid" name="thall" aria-label="default input example">
+    </div>
+
+    <input type="submit" class="btn btn-primary">
+
+  </form>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
